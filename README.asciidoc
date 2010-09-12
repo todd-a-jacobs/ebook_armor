@@ -1,0 +1,45 @@
+= ebook_armor
+
+== Name
+   ebook_armor.sh
+
+== Version
+   $Id: b3c8a8ff9e1120069812f8f3dda3c056a2094478 $
+
+== Purpose
+    Ensure the long-term integrity of electronic books and guard
+    against bit-rot.
+
+== Usage
+   ebook_armor.sh [-h|-u|-d|-v]
+
+== Options
+   -h = show documentation
+   -u = show usage
+   -d = display environment variables
+   -v = show version
+
+== Environment Variables
+   REDUNDANCY = % damamge each book can recover from
+   BOOK_DIR   = top-level directory for e-books
+   INDEX      = location of md5sums
+   CSV        = location of enhanced, tab-delimited index
+   REPAIR     = directory for storing par2 files
+
+== Copyright
+   Copyright 2010 by Todd A. Jacobs
+       <codegnome.consulting+ebook_armor -AT- gmail.com>
+
+== License
+   Released under the GNU General Public License (GPL)
+   http://www.gnu.org/copyleft/gpl.html
+
+   This program is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public License as
+   published by the Free Software Foundation; either version 3 of the
+   License, or (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   General Public License for more details.
