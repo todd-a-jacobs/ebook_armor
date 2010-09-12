@@ -4,7 +4,7 @@
 # Name:
 #    ebook_armor.sh
 # Version:
-#    $Id: ebook_armor.sh,v 1.10 2010/09/12 17:45:01 tjacobs Exp $
+#    $Id$
 # Purpose:
 #     Ensure the long-term integrity of electronic books and guard
 #     against bit-rot.
