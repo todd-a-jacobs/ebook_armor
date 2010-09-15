@@ -168,7 +168,8 @@ verify_book () {
 }
 
 # If book is a zip archive, we get another integrity check almost for
-# free.
+# free. Since EPUB books are technically zip archives too, they're
+# checked here as well.
 verify_zipfile () {
     if file --brief "$book" | egrep -q '^Zip'; then
         echo "ZIP check  $book ... "
