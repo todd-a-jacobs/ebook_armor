@@ -53,8 +53,11 @@ set -o pipefail
 ######################################################################
 # Functions
 ######################################################################
-# Ensure that essential files are created.
+# Ensure that essential files are created. Since it's possible that
+# environment variables were set relative paths, use cd and basename to
+# make sure files are created in the right place.
 init () {
+    cd "$BOOK_DIR"
     for file in "$INDEX" "$CSV"; do
         file=$(basename "$file")
         [[ -f "$file" ]] || touch "$file"
