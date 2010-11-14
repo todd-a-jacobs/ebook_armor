@@ -16,7 +16,7 @@
 #    -d = display environment variables
 #    -v = show version
 # Environment Variables
-#    REDUNDANCY = % damamge each book can recover from
+#    REDUNDANCY = % damage each book can recover from
 #    BOOK_DIR   = top-level directory for e-books
 #    INDEX      = location of md5sums
 #    CSV        = location of enhanced, tab-delimited index
